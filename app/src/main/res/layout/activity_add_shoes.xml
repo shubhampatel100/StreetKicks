@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context=".AddShoes">
+
+    <EditText
+        android:id="@+id/etBrand"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="45sp"
+        android:hint="ENTER BRAND-NAME : "
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etType"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="90sp"
+        android:hint="ENTER TYPE : "
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etCategory"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="135sp"
+        android:hint="ENTER CATEGORY : "
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etColor"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="180sp"
+        android:hint="SELECT COLOR : "
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etSize"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="225sp"
+        android:hint="ENTER SIZE : "
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="270sp"
+        android:hint="ENTER PRICE : "
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etRating"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="315sp"
+        android:hint="GIVE RATINGS : "
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="250sp"
+        android:layout_height="80sp"
+        android:textColor="#06202B"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="380sp"
+        android:hint="SELECT IMAGE : "
+        android:textColorHint="#000000"
+        android:textSize="17sp"
+        />
+
+    <EditText
+        android:id="@+id/etModelnum"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="460sp"
+        android:hint="MODEL NUMBER : "
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/AddImage"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="530sp"
+        android:background="@drawable/button"
+        android:text="ADD IMAGE"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="530sp"
+        android:layout_marginLeft="140sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button"
+        android:text="ADD"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:layout_marginLeft="265sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="530sp"
+        android:background="@drawable/button"
+        android:text="CANCEL"
+        android:textSize="13sp" />
+
+
+
+
+
+</RelativeLayout>

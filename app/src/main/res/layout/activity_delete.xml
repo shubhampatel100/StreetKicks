@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/logbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Delete">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="40sp"/>
+
+    <Button
+        android:id="@+id/btDelete"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="490sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button"
+        android:text="Delete"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:layout_marginLeft="250sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="490sp"
+        android:background="@drawable/button"
+        android:text="CANCEL"
+        android:textSize="13sp" />
+</RelativeLayout>

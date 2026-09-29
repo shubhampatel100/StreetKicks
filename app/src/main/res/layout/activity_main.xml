@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="70sp"
+        android:hint="ENTER USERNAME : "
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="190sp"
+        android:hint="ENTER PASSWORD : "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:background="@drawable/button"
+        android:layout_width="150sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="330sp"
+        android:text="LOGIN"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btCancel"
+        android:layout_width="150sp"
+        android:layout_height="80sp"
+        android:background="@drawable/button"
+        android:layout_marginLeft="210sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="330sp"
+        android:text="CANCEL"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btShop"
+        android:layout_width="335sp"
+        android:layout_height="75sp"
+        android:layout_marginLeft="35sp"
+        android:layout_marginRight="35sp"
+        android:layout_marginTop="460sp"
+        android:background="@drawable/button"
+        android:text="GO SHOPPINGG.."
+        android:textSize="18sp" />
+
+</RelativeLayout>

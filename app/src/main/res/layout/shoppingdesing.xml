@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="130sp" />
+
+    <TextView
+        android:id="@+id/shType"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="130sp"
+        android:gravity="center"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/shPrice"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="179sp"
+        android:gravity="center"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btadd"
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="230sp"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/numshow"
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="250sp"
+        android:layout_marginTop="230sp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btremove"
+        android:layout_width="50sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="300sp"
+        android:layout_marginTop="230sp"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/shcol"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="290sp"
+        android:gravity="center"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/shname"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="290sp"
+        android:gravity="center"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context=".Adminpage">
+
+
+    <Button
+        android:id="@+id/btAdd"
+        android:background="@drawable/button"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="130sp"
+        android:text="ADD SHOES"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btShow"
+        android:background="@drawable/button"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="220sp"
+        android:text="SHOW SHOES"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btDelete"
+        android:background="@drawable/button"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="320sp"
+        android:text="DELETE SHOES"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:background="@drawable/button"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="420sp"
+        android:text="UPDATE SHOES"
+        android:textSize="20sp" />
+
+</RelativeLayout>

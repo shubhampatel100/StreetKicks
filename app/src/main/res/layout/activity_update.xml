@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/logbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300sp"
+        android:layout_height="90sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="40sp"/>
+
+    <EditText
+        android:id="@+id/etColor"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="180sp"
+        android:hint="SELECT COLOR : "
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etSize"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="225sp"
+        android:hint="ENTER SIZE : "
+        android:textColorHint="#000000"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:textColor="#06202B"
+        android:textColorHint="#000000"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="270sp"
+        android:hint="ENTER PRICE : "
+        android:textSize="17sp" />
+
+
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="430sp"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="40sp"
+        android:background="@drawable/button"
+        android:text="UPDATE"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="110sp"
+        android:layout_height="70sp"
+        android:layout_marginLeft="225sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="430sp"
+        android:background="@drawable/button"
+        android:text="CANCEL"
+        android:textSize="13sp" />
+
+</RelativeLayout>

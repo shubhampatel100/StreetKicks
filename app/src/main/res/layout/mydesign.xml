@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="130sp"/>
+
+    <TextView
+        android:id="@+id/shBrand"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:textColor="#06202B"
+        android:gravity="center"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="130sp"
+        android:textColorHint="#000000"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/shPrice"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:gravity="center"
+        android:textColor="#06202B"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="165sp"
+        android:textColorHint="#000000"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/shType"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:textColor="#06202B"
+        android:gravity="center"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="200sp"
+        android:textColorHint="#000000"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/shCategory"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:textColor="#06202B"
+        android:gravity="center"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="235sp"
+        android:textColorHint="#000000"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/shModelNum"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:textColor="#06202B"
+        android:gravity="center"
+        android:layout_marginLeft="200sp"
+        android:layout_marginTop="270sp"
+        android:textColorHint="#000000"
+        android:textSize="17sp"/>
+</RelativeLayout>

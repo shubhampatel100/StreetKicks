@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "298438633001",
+    "project_id": "streetkicks-93223",
+    "storage_bucket": "streetkicks-93223.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298438633001:android:b4ecea5f137ebb01241e38",
+        "android_client_info": {
+          "package_name": "com.example.streetkicks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2evvM_hIWvauO9wp1PjAkE_y_qMwcWi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
